@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'zip/version'
 
 spec = Gem::Specification.new do |s|
-  s.name                  = 'rubyzip'
+  s.name                  = 'superp-rubyzip'
   s.version               = ::Zip::VERSION
   s.authors               = ["Alexander Simonov"]
   s.email                 = ["alex@simonov.me"]
